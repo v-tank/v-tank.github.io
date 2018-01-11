@@ -10,6 +10,7 @@ header{
 	background-color: #fff;
 	border-bottom-style: solid;
 	border-color: #ccc;
+	overflow: hidden;
 }
 
 #navWrapper {
@@ -30,7 +31,7 @@ header #logo {
 	font-size: 24px;
 	color: #fff;
 	position: absolute;
-	height: 30px;
+	height: 70px;
 	padding: 20px 0;
 	left: 0;
 }
@@ -87,21 +88,19 @@ section, aside{
 
 .container{
 	width: 960px;
-	margin: 0 auto;
+	margin: 0 auto 70px auto;
+	overflow: auto;
 }
 
 footer{
-	position: absolute;
-	bottom: 0;
 	clear: both;
 	text-align: center;
 	background-color: #666;
 	color: #ccc;
 	width: 100%;
-	height: 60px;
-	border-top-style: solid;
-	border-color: #4aaaa5;
-	border-width: 10px;
+	padding: 10px 0;
+	border-top: 10px solid #4aaaa5;
+	height: 70px;
 }
 
 #logo, #logo-text, h2, h3 {
@@ -228,8 +227,9 @@ input[type=submit]:hover {
     margin-left: 10px;
 }
 
-.portfolio-item {
+.col-1-2 {
     width: 48%;
+    display: inline-block;
     height: 200px;
     margin-bottom: 20px;
 }

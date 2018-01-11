@@ -10,7 +10,6 @@ header{
 	background-color: #fff;
 	border-bottom-style: solid;
 	border-color: #ccc;
-	overflow: auto;
 }
 
 #navWrapper {
@@ -31,7 +30,7 @@ header #logo {
 	font-size: 24px;
 	color: #fff;
 	position: absolute;
-	height: 70px;
+	height: 30px;
 	padding: 20px 0;
 	left: 0;
 }

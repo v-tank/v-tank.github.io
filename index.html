@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>Vaibhav Tank - About Me</title>
@@ -7,13 +8,19 @@
 </head>
 
 <body>
-
+	<!-- Header -->
 	<header>
 		<div id="navWrapper">
-			<div id="logo">Vaibhav Tank</div>
+
+			<!-- Text Logo -->
+			<div id="logo">
+				<span>Vaibhav Tank</span>
+			</div>
+			
+			<!-- Nav bar -->
 			<nav>
 				<ul>
-					<li><a href="index.html">About</a></li>
+					<li><a href="index.html" id="selected">About</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -23,11 +30,15 @@
 
 	<br>
 
+	<!-- Overall container -->
 	<div class="container">
-		<section>
-			<h2>About Me</h2>
 
+		<!-- Left Section -->
+		<section>
 			<div class="bio-content">
+				<h2>About Me</h2>
+
+				<hr size="3" color="#ccc">
 
 				<img src="assets/images/prof-pic.png" alt="Vaibhav's Profile Picture" height="200px" width="200px" />
 
@@ -43,22 +54,28 @@
 
 			</div>
 		</section>
-
+		
+		<!-- Aside section -->
 		<aside>
+			<div class="contact-content">
+				<h3>Connect With Me</h3>
+					
+				<hr size="1" color="#ccc">
 
-			<h3>Connect With Me</h3>
-			<div class="social-icons">
-				<a href="https://www.github.com/v-tank" target="_blank"><img src="assets/images/github.png" alt="Github Link" height="60px" width="60px" /></a>
+				<div class="social-icons">
+					<a href="https://www.github.com/v-tank" target="_blank"><img src="assets/images/github.png" alt="Github Link" height="60px" width="60px" /></a>
 
-				<a href="https://www.linkedin.com/in/tankv" target="_blank"><img src="assets/images/linkedin.png" alt="Linkedin Link" height="60px" width="60px" /></a>
+					<a href="https://www.linkedin.com/in/tankv" target="_blank"><img src="assets/images/linkedin.png" alt="Linkedin Link" height="60px" width="60px" /></a>
 
-				<a href="https://stackexchange.com/users/10782934/v-tank" target="_blank"><img src="assets/images/stack_overflow.png" alt="Stackoverflow Link" height="60px" width="60px" /></a>
+					<a href="https://stackexchange.com/users/10782934/v-tank" target="_blank"><img src="assets/images/stack_overflow.png" alt="Stackoverflow Link" height="60px" width="60px" /></a>
+				</div>
 			</div>
 		</aside>
 	</div>
 
+	<!-- Footer -->
 	<footer>
-		&copy; Copyright 2016 Vaibhav Tank
+		<div id="footer-text">&copy; Copyright 2016 Vaibhav Tank</div>
 	</footer>
 </body>
 </html>

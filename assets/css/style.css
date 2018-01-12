@@ -79,7 +79,8 @@ header nav ul li a {
 /************************************************************************/
 /* Target the pseudo elements */
 nav ul li a:hover {
-	color: #49a978;
+	color: #fff;
+	background: #a8bcbc;
 }
 
 #selected {

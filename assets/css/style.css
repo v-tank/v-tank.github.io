@@ -204,6 +204,7 @@ nav ul li a:hover {
 /* Footer selectors */
 footer {
 	height: 70px;
+	border-top: 8px solid #4aaaa5;
 }
 
 .table-class {

@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Vaibhav Tank - Portfolio</title>
+	<title>Contact | Vaibhav Tank</title>
 	<link rel="stylesheet" text="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" text="text/css" href="assets/css/style.css">
 </head>
@@ -15,7 +15,7 @@
 
 			<!-- Text Logo -->
 			<div id="logo">
-				<span>Vaibhav Tank</span>
+				<a href="index.html">Vaibhav Tank</a>
 			</div>
 			
 			<!-- Nav bar -->
@@ -33,26 +33,30 @@
 	<div class="container clearfix">
 
 		<!-- Left Section -->
-		<section>
+		<section class="contact-section">
 			
 			<h2>Contact</h2>
 			
 			<hr size="3" color="#ccc">
 			
-			<form>
-					<label>Name</label>
-					<input type="text" name="firstname" placeholder="John Smith">
-					
-					<label>Email</label>
-					<input type="text" name="email" placeholder="example@gmail.com">
-					
-					<label>Message</label>
-					<textarea rows="15" cols="70" name="message">
-					</textarea>
-
-					<input type="submit" value="Submit">
-
-				</form>
+			<form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+			
 		</section>
 
 		<!-- Aside section -->

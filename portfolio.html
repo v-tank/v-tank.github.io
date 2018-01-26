@@ -2,106 +2,110 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<title>Portfolio | Vaibhav Tank</title>
-	<link rel="stylesheet" text="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" text="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Portfolio | Vaibhav Tank</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
-<body>
-	<!-- Header -->
-	<header>
-		<div id="navWrapper" class="clearfix">
+<body class="mainBody">
 
-			<!-- Text Logo -->
-			<div id="logo">
-				<a href="index.html">Vaibhav Tank</a>
-			</div>
-			
-			<!-- Nav bar -->
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html" id="selected">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
+    <div class="container customContainerSize">
+      <a class="navbar-brand" href="index.html">Vaibhav Tank</a>
+      
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  
+  <!-- Overall container -->
+  <div class="container customContainerSize">
+    <div class="row">
+      <div class="col-lg-8 leftSection">
+        <h1>Portfolio</h1>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div class="portfolioItem">
+              <a href="https://v-tank.github.io/Hangman-Game/"><img class="card-img-top" src="assets/images/hangman.png" alt="Hangman">
+              <div class="caption">
+                <p>Hangman</p>
+              </div>
+              </a>
+            </div>
+          </div>
 
-	<!-- Overall container -->
-	<div class="container clearfix">
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div class="portfolioItem">
+              <a href="https://v-tank.github.io/week-4-game/"><img class="card-img-top" src="assets/images/crystals.png" alt="Hangman">
+              <div class="caption">
+                <p>Crystals Game</p>
+              </div>
+              </a>
+            </div>
+          </div>
 
-		<!-- Left Section -->
-		<section>
-			
-			<h2>Portfolio</h2>
-			
-			<hr size="3" color="#ccc">
-			
-			<div class="portfolio-container">
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div class="portfolioItem">
+              <a href="https://v-tank.github.io/TriviaGame/"><img class="card-img-top" src="assets/images/trivia_game.png" alt="Hangman">
+              <div class="caption">
+                <p>Trivia Game</p>
+              </div>
+              </a>
+            </div>
+          </div>
 
-				<div class="portfolio-item">
-					<a href="#"><img src="assets/images/275x200.png" alt="Hangman"/>
-					<div class="titleBlock">
-						<p>Hangman</p>
-					</div>
-					</a>
-				</div>
-				
-				<div class="portfolio-item">
-					<a href="#"><img src="assets/images/275x200.png" alt="RPG Game"/>
-					<div class="titleBlock">
-						<p>RPG Game</p>
-					</div>
-					</a>
-				</div>
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div class="portfolioItem">
+              <a href="#"><img class="card-img-top" src="assets/images/275x200.png" alt="Hangman">
+              <div class="caption">
+                <p>Rutgers Info Widget</p>
+              </div>
+              </a>
+            </div>
+          </div>
 
-				<div class="portfolio-item">
-					<a href="#"><img src="assets/images/275x200.png" alt="Trivia Game"/>
-					<div class="titleBlock">
-						<p>Trivia Game</p>
-					</div>
-					</a>
-				</div>
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div class="portfolioItem">
+              <a href="#"><img class="card-img-top" src="assets/images/275x200.png" alt="Hangman">
+              <div class="caption">
+                <p>Rock Paper Scissors</p>
+              </div>
+              </a>
+            </div>
+          </div>
 
-				<div class="portfolio-item">
-					<a href="#"><img src="assets/images/275x200.png" alt="Rutgers Info Widget"/>
-					<div class="titleBlock">
-						<p>Rutgers Info Widget</p>
-					</div>
-					</a>
-				</div>
+        </div> 
+      </div>
 
-				<div class="portfolio-item">
-					<a href="#"><img src="assets/images/275x200.png" alt="Rock Paper Scissors"/>
-					<div class="titleBlock">
-						<p>Rock Paper Scissors</p>
-					</div>
-					</a>
-				</div>
-			</div>
-		</section>
+      <div class="col-lg-4 ml-auto aside">
+        <h5>Connect With Me</h5>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://www.github.com/v-tank" target="_blank"><img src="assets/images/github.png" alt="Github Link"/></a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/tankv" target="_blank"><img src="assets/images/linkedin.png" alt="Linkedin Link"/></a></li>
+          <li class="list-inline-item"><a href="https://stackexchange.com/users/10782934/v-tank" target="_blank"><img src="assets/images/stack_overflow.png" alt="Stackoverflow Link"/></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-		<!-- Aside section -->
-		<aside>
-				<h3>Connect With Me</h3>
-					
-				<hr size="1" color="#ccc">
+  <!-- Footer -->
+  <footer>
+      <p>&copy; Copyright 2018 Vaibhav Tank</p>
+  </footer>
 
-				<div class="social-icons">
-					<a href="https://www.github.com/v-tank" target="_blank"><img src="assets/images/github.png" alt="Github Link" height="60px" width="60px" /></a>
-
-					<a href="https://www.linkedin.com/in/tankv" target="_blank"><img src="assets/images/linkedin.png" alt="Linkedin Link" height="60px" width="60px" /></a>
-
-					<a href="https://stackexchange.com/users/10782934/v-tank" target="_blank"><img src="assets/images/stack_overflow.png" alt="Stackoverflow Link" height="60px" width="60px" /></a>
-				</div>
-		</aside>
-	</div>
-
-	<!-- Footer -->
-	<footer class="clearfix table-class">
-		<div id="footer-text">&copy; Copyright 2018 Vaibhav Tank</div>
-	</footer>
-</body>
+  </body>
 </html>

@@ -37,6 +37,12 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link,.resumeBtn {
   font-weight: 600;
   text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+.sec-num{
+  color: #999;
 }
 
 .list-social-icons a {
@@ -106,7 +112,7 @@ h2 {
   }
 
   #sideNav {
-    text-align: center;
+    text-align: left;
     position: fixed;
     top: 0;
     left: 0;
@@ -155,7 +161,7 @@ h2 {
   color: #fff;
   cursor: pointer;
   padding: 8px 20px;
-  margin: 15px auto;
+  margin: 15px 0px;
   border: none;
   border-radius: 40px;
   font-size: 1rem;
@@ -195,7 +201,10 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #222428!important;
+  background: linear-gradient(#071523, #282c30) !important;
+  -webkit-box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.29);
+  -moz-box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.29);
+  box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.29);
 }
 
 .text-primary {
